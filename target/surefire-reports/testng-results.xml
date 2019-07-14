@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-13T11:27:39Z" name="Suite" finished-at="2019-07-13T11:28:07Z" duration-ms="28204">
+    <groups>
+    </groups>
+    <test started-at="2019-07-13T11:27:39Z" name="Test" finished-at="2019-07-13T11:27:53Z" duration-ms="14307">
+      <class name="TricentisApp.automobil">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TricentisApp.automobil@5026735c]" started-at="2019-07-13T13:27:39Z" name="initialize" finished-at="2019-07-13T13:27:43Z" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="AutomobilSection()[pri:0, instance:TricentisApp.automobil@5026735c]" started-at="2019-07-13T13:27:43Z" name="AutomobilSection" finished-at="2019-07-13T13:27:52Z" duration-ms="8635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutomobilSection -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TricentisApp.automobil@5026735c]" started-at="2019-07-13T13:27:53Z" name="teardown" finished-at="2019-07-13T13:27:53Z" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TricentisApp.automobil -->
+    </test> <!-- Test -->
+    <test started-at="2019-07-13T11:27:53Z" name="Test2" finished-at="2019-07-13T11:28:07Z" duration-ms="13866">
+      <class name="TricentisApp.Truck">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TricentisApp.Truck@20435c40]" started-at="2019-07-13T13:27:53Z" name="initialize" finished-at="2019-07-13T13:27:57Z" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="TruckTest()[pri:0, instance:TricentisApp.Truck@20435c40]" started-at="2019-07-13T13:27:57Z" name="TruckTest" finished-at="2019-07-13T13:28:06Z" duration-ms="9197" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Button is Displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Button is Displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at TricentisApp.Truck.TruckTest(Truck.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TruckTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TricentisApp.Truck@20435c40]" started-at="2019-07-13T13:28:07Z" name="teardown" finished-at="2019-07-13T13:28:07Z" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TricentisApp.Truck -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
